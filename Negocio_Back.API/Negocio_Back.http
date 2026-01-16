@@ -1,0 +1,6 @@
+@Negocio_Back_HostAddress = http://localhost:5092
+
+GET {{Negocio_Back_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
