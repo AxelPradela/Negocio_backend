@@ -4,14 +4,82 @@
     "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Negocio_Back.API\\Negocio_Back.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Negocio_Back.API\\Negocio_Back.API.csproj": {
+    "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Negocio_Back.API\\Negocio_Back.API.csproj",
-        "projectName": "Negocio_Back.API",
-        "projectPath": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Negocio_Back.API\\Negocio_Back.API.csproj",
+        "projectUniqueName": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Axel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Negocio_Back.API\\obj\\",
+        "outputPath": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Axel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Axel\\.dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Axel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,8 +116,148 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Axel\\.dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Axel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Axel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Axel\\.dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Negocio_Back.API\\Negocio_Back.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Negocio_Back.API\\Negocio_Back.API.csproj",
+        "projectName": "Negocio_Back.API",
+        "projectPath": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Negocio_Back.API\\Negocio_Back.API.csproj",
+        "packagesPath": "C:\\Users\\Axel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Negocio_Back.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Axel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Axel\\RiderProjects\\Negocio_Back\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.23, )"
             },
