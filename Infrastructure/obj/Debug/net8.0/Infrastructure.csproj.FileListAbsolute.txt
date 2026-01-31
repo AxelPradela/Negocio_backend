@@ -16,3 +16,5 @@ C:\Users\Axel\RiderProjects\Negocio_Back\Infrastructure\obj\Debug\net8.0\Infrast
 C:\Users\Axel\RiderProjects\Negocio_Back\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\Axel\RiderProjects\Negocio_Back\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\Axel\RiderProjects\Negocio_Back\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Axel\RiderProjects\Negocio_Back\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Axel\RiderProjects\Negocio_Back\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
